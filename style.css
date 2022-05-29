@@ -115,6 +115,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-clear{
+	margin:0;
+}
 .mg-sm{
 	margin-top:10px;
 	margin-bottom:5px;
@@ -122,10 +125,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
-}
-.mg-lg{
-	margin-top:10px;
-	margin-bottom:40px;
 }
 
 /* = Buttons
@@ -165,6 +164,19 @@ button{
 	border-radius:0 0 29px 29px;
 }
 
+/* = Classic Dividers
+-------------------------------------------------------------- */
+.divider-h{
+	min-height: 1px;
+	background-color:rgba(0,0,0,.2);
+	margin: 20px 0;
+}
+.divider-half{
+	width: 50%;
+}
+.dropdown-menu .divider-h{
+	margin:0;
+}
 
 
 
@@ -212,20 +224,40 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h3-style{
 	font-size:24px;
+	line-height:28px;
+}
+.text-span-color{
+	color:#941751;
+}
+.p-bloc-0-color{
+	color:#000000;
+}
+.p-6-color{
+	color:#000000;
+}
+.divider-style{
+	height:2px;
+	background-color:#000000;
+}
+.divider-bloc-0-style{
+	height:2px;
+	background-color:#000000;
 }
 
 /* = Colour
 -------------------------------------------------------------- */
 
 
-/* Text colour styles */
+/* Link colour styles */
 
-.tc-outer-space{
-	color:#424242!important;
+.ltc-azure{
+	color:#0079FF!important;
 }
-.tc-black{
-	color:#000000!important;
+.ltc-azure:hover{
+	color:#0061cc!important;
 }
+
+/* Bloc image backgrounds */
 
 
 

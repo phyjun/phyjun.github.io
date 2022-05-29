@@ -112,6 +112,21 @@ a:hover{text-decoration: none; cursor:pointer;}
 	right:100%;
 	left:auto}
 }
+/* = Bric adjustment margins
+-------------------------------------------------------------- */
+
+.mg-sm{
+	margin-top:10px;
+	margin-bottom:5px;
+}
+.mg-md{
+	margin-top:10px;
+	margin-bottom:20px;
+}
+.mg-lg{
+	margin-top:10px;
+	margin-bottom:40px;
+}
 
 /* = Buttons
 -------------------------------------------------------------- */
@@ -128,9 +143,15 @@ button{
 
 
 
+/*  Image Protection */
+.img-protected{
+	-webkit-touch-callout: none;
+}
 
 
 
+/* = Cards
+-------------------------------------------------------------- */
 .card-sq, .card-sq .card-header, .card-sq .card-footer{
 	border-radius:0;
 }
@@ -183,10 +204,28 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .container{
 	max-width:1140px;
 }
+.img-style{
+	width:100px;
+}
+.p-color{
+	color:#000000;
+}
+.h3-style{
+	font-size:24px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
 
+
+/* Text colour styles */
+
+.tc-outer-space{
+	color:#424242!important;
+}
+.tc-black{
+	color:#000000!important;
+}
 
 
 
@@ -269,3 +308,20 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	   height: 320px;
     }
 }
+@media (max-width: 767px){
+	.text-right{
+	}
+	.text-left{
+	}
+	.text-center{
+	}
+	
+}
+
+@media (max-width: 575px){
+	.footer-link{
+		text-align:center;
+	}
+	
+}
+

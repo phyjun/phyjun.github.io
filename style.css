@@ -381,6 +381,26 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.footer-link{
 		text-align:center;
 	}
+	.p-color{
+		font-size:16px;
+	}
+	
+	/* Mobile Text Margin Offsets */
+	.mg-sm-xs{
+		margin-top:10px;
+		margin-bottom:5px;
+	}
+		.mg-md-xs{
+		margin-top:10px;
+		margin-bottom:20px;
+	}
+		.mg-lg-xs{
+		margin-top: 10px;
+		margin-bottom:40px;
+	}
+		.mg-clear-xs{
+		margin:0;
+	}
 	
 }
 
